@@ -8,8 +8,8 @@ interface ReminderListProps {
 
 export default function ReminderList({ items }: ReminderListProps) {
   return (
-    <ul>
-        {items.map(item => <li key={item.id}>{item.title}</li>)}
+    <ul className='list-group'>
+        {items.map(item => <li className='list-group-item' key={item.id}>{item.title}</li>)}
     </ul>
   )
 }

@@ -1,5 +1,3 @@
-import { title } from 'process';
-import React from 'react'
 import Reminder from '../models/Reminder';
 
 interface ReminderListProps {
